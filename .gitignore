@@ -51,3 +51,5 @@ rsconnect/
 Dataset.R
 ElasticNet.R
 MetaFile.R
+
+coefficients.csv
