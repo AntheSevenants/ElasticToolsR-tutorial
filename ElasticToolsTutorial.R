@@ -20,7 +20,7 @@ df$edited <- as.logical(df$edited)
 ds <- dataset(df=df,
               response_variable_column="order",
               to_binary_columns=c("participle"),
-              other_columns=list("country", "edited"))
+              other_columns=c("country", "edited"))
 
 # Define an Elastic Net object
 net <- elastic_net(ds=ds,
